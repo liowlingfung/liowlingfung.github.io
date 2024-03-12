@@ -5,12 +5,12 @@
     </title>
 
     <!--Top Navbar-->
-    <ul>
-      <li><a href="#">CONTACT</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">RESUME</a></li>
+    <ul class="sticky">
+      <li><a href="#contact">CONTACT</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#resume">RESUME</a></li>
       <li><a href="#portfolio">PORTFOLIO</a></li>
-      <li><a href="#bottom">HOME</a></li>
+      <li><a href="#home">HOME</a></li>
     </ul>
 
     <link rel="stylesheet" href="style/style.css">
@@ -38,13 +38,13 @@
   </head>
 
   <body>
-    <div class = "container">
+    <div class = "container" id="home">
       <section class="hidden">
         <img src="image/photo_self.jpg" alt = "My Profile Picture" style="object-fit: cover; filter: grayscale(); width: 100%; height:100%">
         <p class = "bigtitle"> Hi, I am</p>
         <h1 class = "selfname"> Ling Fung</h1>
       </section>
-      <hr class="separator">
+      <hr class="hidden">
       <section class="hidden" style="margin-top: 1%;" id="portfolio">
         <h1>Portfolio</h1>
       
@@ -56,6 +56,21 @@
         <div></div>
         <div></div>
       </section>
+       </section>
+
+       <hr class="hidden">
+       <section class="hidden" id="resume">
+        <h1>Resume</h1>
+       </section>
+       
+       <hr class="hidden">
+       <section class="hidden" id="about">
+        <h1>About</h1>
+       </section>
+       
+       <hr class="hidden">
+       <section class="hidden" id="contact">
+        <h1>Contact</h1>
        </section>
 
       <section class="hidden" id="bottom">
