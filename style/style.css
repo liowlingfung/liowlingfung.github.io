@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
 /* NAVIGATION BAR */
 li {
     display: inline;
@@ -97,5 +102,4 @@ li a {
   
   .container{
     scroll-snap-type: y mandatory;
-    overflow-y: scroll;
   }
