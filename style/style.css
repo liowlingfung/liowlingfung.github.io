@@ -37,6 +37,9 @@ li a {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    font-weight: 50;
   }
   
   h2 {
@@ -45,7 +48,23 @@ li a {
     outline: 0px 2px 2px white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    
+    font-size: 60px;
+    font-weight: 50;
+    margin-top: 7%;
+    margin-bottom: 1%;
+  }
+
+  h3 {
+    color: #ffffff;
+    font-family: Arial;
+    outline: 0px 2px 2px white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
   }
   
   p {
@@ -61,11 +80,18 @@ li a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 60px;
-
+    
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  p.details{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 30%;
   }
 
   h1.selfname{
@@ -73,6 +99,7 @@ li a {
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
   }
   
   body {
@@ -91,7 +118,6 @@ li a {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
     scroll-snap-align: start;
   }
 
@@ -112,3 +138,16 @@ li a {
     scroll-snap-type: y mandatory;
   }
   
+  progress{
+    margin-left: 5%;
+    position: relative;
+    height: 10px;
+    width: 30%;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    background-color: #57ff7c;
+  }
+
+ progress::-webkit-progress-value {
+  background-color: rgb(44, 255, 90);
+}
