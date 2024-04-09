@@ -82,7 +82,7 @@ li a {
     font-size: 60px;
     
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -96,7 +96,7 @@ li a {
 
   h1.selfname{
     position: absolute;
-    top: 55%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
