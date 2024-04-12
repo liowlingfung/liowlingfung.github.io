@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <title>
+      Portfolio - Liow Ling Fung
+    </title>
+
+    <!--Top Navbar-->
+    <ul class="sticky">
+        <li><a href="aboutme.html">ABOUT ME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="index.html">HOME</a></li>
+    </ul>
+
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="animation.js"></script>
+    <style>
+      /*The Picture Column CSS*/
+      #photoArray{
+        display: grid;
+        grid-gap: .5em;
+        grid-template-areas: 
+        "photoOne photoTwo photoThree"
+        "photoOne photoFour photoFive";
+        grid-template-columns: 1fr 20% 20%;
+        }
+
+      #photoArray > div{
+        border: 2px solid white;
+      }
+
+      #photoArray > div:first-child{
+        grid-area: photoOne;
+        min-height: 750px;
+      }
+    </style>
+  </head>
+
+  <body>
+      <section class="hidden" id="resume">
+        <h1>Resume</h1>
+        <h2 style="text-align: left;margin-left: 5%;">Introduction</h2>
+        <p class="details" style="line-height: 150%;">
+          Hi, my name is Liow Ling Fung, you can also call me Ling Fung in short.
+          I study as the student of BSc. Hons Multimedia Computing which 
+          I made a 2D platformer game project as my final year project. 
+          I am very interested in game development especially in game level designs and the game logics. 
+          Also, I am a gamer who emphasize the importance of UX experience among gamers as well.
+        </p>
+          <br><br>
+        <p class="details" style="text-indent: 50px;line-height: 150%;">
+          Besides that, I also learn about web development and graphical design in the Multimedia Computing course. 
+          In web development, I am familiar with HTML, CSS and JavaScript using Visual Studio Code and Netbeans IDE.
+          For graphic designs, Adobe Illustrator is primarily used for academic projects and Krita is mainly used for
+          creating assets for my own game project. I also know how to use Premiere Pro or After Effects to create videos and animations.
+        </p>
+        </section>
+
+        <section class="hidden" id="resume">
+          <h2 style="text-align: left;margin-left: 5%;">Technical Skills</h2>
+          <!--GAME ENGINES-->
+          <h2 style="text-align: left;margin-left: 5%;font-size: 45px;margin-top: 0%;">Game Engine</h2>
+          <h3>Unreal Engine 5</h3>
+          <progress value="70" max="100"></progress>
+          <h3>Godot Engine</h3>
+          <progress value="40" max="100"></progress>
+          <h3>Unity</h3>
+          <progress value="40" max="100" style="margin-bottom: 5%;"></progress>
+        </section>
+        
+        <section class="hidden" id="resume">
+        <!--PROGRAMMING LANGUAGES-->
+        <h2 style="text-align: left;margin-left: 5%;font-size: 45px;margin-top: 0%;">Programming Languages</h2>
+        <h3>C Programming</h3>
+        <progress value="60" max="100"></progress>
+        <h3>C#</h3>
+        <progress value="60" max="100"></progress>
+        <h3>C++</h3>
+        <progress value="40" max="100"></progress>
+        <h3>Java</h3>
+        <progress value="50" max="100"></progress>
+        <h3>HTML</h3>
+        <progress value="50" max="100"></progress>
+        <h3>CSS</h3>
+        <progress value="40" max="100"></progress>
+        <h3>JavaScript</h3>
+        <progress value="30" max="100" style="margin-bottom: 5%;"></progress>
+        </section>
+
+        <section class="hidden" id="resume">
+          <!--Graphic/Video Production-->
+          <h2 style="text-align: left;margin-left: 5%;font-size: 45px;margin-top: 0%;">Graphic/Video Production</h2>
+          <h3>Adobe Illustrator</h3>
+          <progress value="60" max="100"></progress>
+          <h3>Adobe Premiere Pro</h3>
+          <progress value="70" max="100"></progress>
+          <h3>Adobe After Effects</h3>
+          <progress value="40" max="100"></progress>
+          <h3>Krita</h3>
+          <progress value="70" max="100"></progress>
+          </section>
+  
+
+        <section class="hidden" id="resume">
+          <h2 style="text-align: left;margin-left: 5%;">Education Qualification</h2>
+          <h3><b>YPC International College, 2020 - 2024</b></h3>
+          <h3>BSc. Hons Multimedia Computing</h3>
+          <h3>Expected graduation in 2024</h3>
+        </section>
+        
+       <br><br><br><br><br><br><br><br><br>
+
+       <hr class="hidden">
+
+
+      <section class="hidden" id="bottom">
+        <p> This website is used to be tracked by Google Analytic</p>
+      </section>
+    </div>
+  </body>
+</html>
