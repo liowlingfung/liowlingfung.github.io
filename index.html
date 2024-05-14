@@ -3,16 +3,16 @@
     <title>
       Portfolio - Liow Ling Fung
     </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Top Navbar-->
     <nav>
-    <ul class="sticky">
-      <li><a href="aboutme.html">ABOUT ME</a></li>
-      <li><a href="portfolio.html">PORTFOLIO</a></li>
-      <li><a href="resume.html">RESUME</a></li>
-      <li><a href="index.html">HOME</a></li>
-    </ul>
+      <ul class="sticky">
+        <li><a href="index.html">ABOUT ME</a></li>
+        <li><a href="resume.html">RESUME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+      </ul>
     </nav>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HTN3ETQLGY"></script>
     <script>
@@ -22,6 +22,7 @@
 
       gtag('config', 'G-HTN3ETQLGY');
     </script>
+    <!-- Google Analytics Tag-->
 
     <link rel="stylesheet" href="style/style.css">
     <script defer src="animation.js"></script>
@@ -30,16 +31,35 @@
   <body>
     <div class = "container" id="home">
       <section class="hidden" style="background-color: rgb(241, 241, 241);text-align: center;">
-        <img src="image/photo_self.jpg" alt = "My Profile Picture" style="object-fit: cover;">
+        <img src="image/photo_self.jpg" alt = "My Profile Picture" style="object-fit: cover;" class="selfphoto">
         <p class = "bigtitle"> Hi, I am</p>
         <h1 class = "selfname"> Ling Fung</h1>
         <meta name="description" content="Multimedia Computing Portfolio">
       </section>
       <hr class="hidden">
-
-      <section class="hidden" id="bottom">
-        <p> This website is used to be tracked by Google Analytic</p>
+      <section class="hidden">
+      <h2 style="text-align: left;margin-left: 5%;">Introduction</h2>
+        <p class="details" style="line-height: 150%;">
+          I am a student of BSc. Hons Multimedia Computing and 
+          I also made a 2D platformer game project as my final year project. 
+          The game is developed with functional UI systems such as main menu, sound controls, pause menu, play menu and in-game Graphical User Interface(GUI).
+          The game mechanics developed are the weapon swapping system, weapon upgrade system (Shop), basic movement systems, enemies with special properties and interactive environments.
+        </p>
+          <br><br>
+        <p class="details" style="text-indent: 50px;line-height: 150%;">
+          Excluding from game development skills, I am also familiar with web development and graphic designs 
+          where I use HTML, CSS, JavaScript to build a simple website and for grpahic design I use Adobe Illustrator but primarily using Krita to design the assets for the game project.
+          I am also familiar with motion graphics software such as Adobe Premiere Pro and Adobe After Effects as well.
+        </p>
       </section>
+
+        <hr class="hidden" style="margin-top: 5%;">
+
+        <section class="hidden" style="display: block;align-content: center;margin-top: 5%;margin-bottom: 5%;">
+          <button style="height: 10%;width: 300px;"><a href="resume.html" class="btnNavi">Resume</a></button>
+        </section>
     </div>
+
+    
   </body>
 </html>

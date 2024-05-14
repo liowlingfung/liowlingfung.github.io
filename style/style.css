@@ -6,25 +6,27 @@
 /* NAVIGATION BAR */
 li {
     display: inline;
-    float: right;
-    align-self: right;
+    float: left;
 }
 
 li a {
+    position: relative;
+    float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 40px 16px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
   }
 
-  ul.sticky {
+  .sticky {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #333333;
   }
 
   li a:hover {
@@ -37,8 +39,8 @@ li a {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120px;
-    text-decoration: underline;
-    text-decoration-thickness: 5px;
+    text-decoration: underline 1px;
+    text-decoration-thickness: 3px;
     font-weight: 50;
   }
   
@@ -85,22 +87,32 @@ li a {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   p.details{
     font-size: 20px;
     text-align: justify;
     margin-left: 5%;
-    margin-right: 30%;
+    margin-right: 5%;
   }
 
   h1.selfname{
     position: absolute;
     top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
     text-decoration: none;
-    min-width: 600px;
+    font-size: 9em;
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   
   body {
@@ -138,17 +150,88 @@ li a {
   .container{
     scroll-snap-type: y mandatory;
   }
-  
-  progress{
-    margin-left: 5%;
-    position: relative;
-    height: 10px;
-    width: 30%;
-    border: 3px solid #000000;
-    border-radius: 15px;
-    background-color: #57ff7c;
+
+.img_resume{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.selfphoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  border-radius: 10px;
+  background-color: #202020;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40;
+}
+
+.btnNavi{
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px)
+{
+  h1.selfname{
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3em;
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
 
- progress::-webkit-progress-value {
-  background-color: rgb(44, 255, 90);
+  p.bigtitle{
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 2em;
+    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  h1{
+    font-size: 60;
+  }
+
+  .img_resume{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .downloadPDF{
+    font-size: 16;
+  }
 }

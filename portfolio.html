@@ -3,38 +3,20 @@
     <title>
       Portfolio - Liow Ling Fung
     </title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Top Navbar-->
     <nav>
-    <ul class="sticky">
-        <li><a href="aboutme.html">ABOUT ME</a></li>
-        <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <ul class="sticky">
+        <li><a href="index.html">ABOUT ME</a></li>
         <li><a href="resume.html">RESUME</a></li>
-        <li><a href="index.html">HOME</a></li>
-    </ul>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+      </ul>
     </nav>
 
     <link rel="stylesheet" href="style/style.css">
     <script defer src="animation.js"></script>S
     <style>
-      /*The Picture Column CSS*/
-      #photoArray{
-        display: grid;
-        grid-gap: .5em;
-        grid-template-areas: 
-        "photoOne photoTwo photoThree"
-        "photoOne photoFour photoFive";
-        grid-template-columns: 1fr 20% 20%;
-        }
-
-      #photoArray > div{
-        border: 2px solid white;
-      }
-
-      #photoArray > div:first-child{
-        grid-area: photoOne;
-        min-height: 750px;
-      }
+      
     </style>
   </head>
 
@@ -42,12 +24,8 @@
           <section class="hidden" style="margin-top: 1%;" id="portfolio">
            <h1>Portfolio</h1>      
    
-         <section class="hidden" style="margin: 10%;margin-top: 1%;" id="photoArray">
-           <div><img src="image/portfolio_1.png" style="object-fit: fill; width: 100%;height: 100%;" alt="Portfolio Image 1 by LingFung"></div>
-           <div><img src="image/portfolio_2.png" style="object-fit: contain; width: 100%;" alt="Portfolio Image 2 by LingFung"></div>
-           <div><img src="image/portfolio_3.png" style="object-fit: contain; width: 100%;" alt="Portfolio Image 3 by LingFung"></div>
-           <div><img src="image/portfolio_4.png" style="object-fit: contain; width: 100%;" alt="Portfolio Image 4 by LingFung"></div>
-           <div><img src="image/portfolio_5.png" style="object-fit: contain; width: 100%;" alt="Portfolio Image 5 by LingFung"></div>
+         <section class="hidden" style="margin: 10%;margin-top: 1%;">
+           
          </section>
           </section>
 
@@ -55,10 +33,6 @@
 
        <hr class="hidden">
 
-
-      <section class="hidden" id="bottom">
-        <p> This website is used to be tracked by Google Analytic</p>
-      </section>
     </div>
   </body>
 </html>
