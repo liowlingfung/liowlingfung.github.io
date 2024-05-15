@@ -248,6 +248,10 @@ iframe{
     font-size: 24;
   }
 
+  h3{
+    font-size: 12;
+  }
+
   iframe{
     width: 320;
     height: 240;
