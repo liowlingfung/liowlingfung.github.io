@@ -182,7 +182,7 @@ button{
   font-size: 40;
 }
 
-.btnNavi{
+.btnNavi {
   text-decoration: none;
   color: white;
 }
@@ -201,7 +201,12 @@ video{
   height: 600px;
 }
 
-@media only screen and (max-width: 800px)
+.btnNavi.download{
+  font-size: 32;
+  width: 400px;
+}
+
+@media only screen and (max-width: 1000px)
 {
   h1.selfname{
     position: absolute;
@@ -246,6 +251,9 @@ video{
   video{
     width: 320;
     height: 240;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .img_resume{
@@ -258,8 +266,8 @@ video{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    height: 15%;
+    width: 300px;
+    height: 25%;
   }
 
   .downloadPDF{
@@ -276,6 +284,11 @@ video{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20;
+  }
+
+  .btnNavi.download{
+    font-size: 32;
+    width: 300px;
   }
 }
 
