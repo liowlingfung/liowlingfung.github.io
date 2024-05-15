@@ -187,7 +187,7 @@ button{
   color: white;
 }
 
-video{
+iframe{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -248,7 +248,7 @@ video{
     font-size: 24;
   }
 
-  video{
+  iframe{
     width: 320;
     height: 240;
     display: block;
