@@ -187,7 +187,21 @@ button{
   color: white;
 }
 
-@media only screen and (max-width: 1000px)
+video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_gameplay{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 600px;
+}
+
+@media only screen and (max-width: 800px)
 {
   h1.selfname{
     position: absolute;
@@ -224,6 +238,15 @@ button{
   h1{
     font-size: 60;
   }
+  
+  h2{
+    font-size: 24;
+  }
+
+  video{
+    width: 320;
+    height: 240;
+  }
 
   .img_resume{
     display: block;
@@ -231,7 +254,28 @@ button{
     margin-right: auto;
   }
 
+  .img_gameplay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 15%;
+  }
+
   .downloadPDF{
     font-size: 16;
   }
+
+  li a {
+    position: relative;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 6px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+  }
 }
+
