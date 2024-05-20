@@ -206,6 +206,17 @@ iframe{
   width: 400px;
 }
 
+.img_gameplay.packaging{
+  width: 50%;
+  height: 80%;
+}
+
+.img_gameplay.poster{
+  width: 50%;
+  height: 150%;
+  margin-top: 1%;
+}
+
 @media only screen and (max-width: 1000px)
 {
   h1.selfname{
@@ -294,5 +305,17 @@ iframe{
     font-size: 32;
     width: 300px;
   }
+
+  .img_gameplay.packaging{
+    width: 50%;
+    height: 30%;
+  }
+
+  .img_gameplay.poster{
+    width: 50%;
+    height: 50%;
+    margin-top: 1%;
+  }
 }
+
 
