@@ -75,6 +75,10 @@ function App() {
           skillName='Unreal Engine 5' 
           logo={LOGO.logoUE5}
           />
+        <Skill 
+          skillName='Git' 
+          logo={LOGO.logoGit}
+          />
       </div>
       
     </div>

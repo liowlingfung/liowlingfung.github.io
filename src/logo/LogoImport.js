@@ -10,6 +10,7 @@ const LOGO = {
     logoJava: require('./Java.png'),
     logoTypeScript: require('./TypeScript.png'),
     logoUE5: require('./ue5.png'),
+    logoGit: require('./git.png'),
 }
 
 export default LOGO;
