@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.dfc65571.css",
-    "main.js": "./static/js/main.2968a202.js",
+    "main.js": "./static/js/main.560250af.js",
     "static/js/488.74d503c4.chunk.js": "./static/js/488.74d503c4.chunk.js",
     "static/media/python.png": "./static/media/python.521b5358db06f7d70bba.png",
     "static/media/React.png": "./static/media/React.e3fedf26bb446b09c8a1.png",
@@ -9,6 +9,7 @@
     "static/media/HTML.png": "./static/media/HTML.f08f7501a638838b0664.png",
     "static/media/ue5.png": "./static/media/ue5.ca43861ad5c56fc295be.png",
     "static/media/C++.png": "./static/media/C++.158ac0f17f08a156fa1f.png",
+    "static/media/git.png": "./static/media/git.8322c082f223fd807d36.png",
     "static/media/TypeScript.png": "./static/media/TypeScript.659e4b9351cf1baa6930.png",
     "static/media/image_lingfung.jpg": "./static/media/image_lingfung.9c8add738f97f9770aa5.jpg",
     "static/media/Java.png": "./static/media/Java.26fabfb6a8fae662f174.png",
@@ -17,11 +18,11 @@
     "static/media/PHP.png": "./static/media/PHP.38623976bd3dccc94f3a.png",
     "index.html": "./index.html",
     "main.dfc65571.css.map": "./static/css/main.dfc65571.css.map",
-    "main.2968a202.js.map": "./static/js/main.2968a202.js.map",
+    "main.560250af.js.map": "./static/js/main.560250af.js.map",
     "488.74d503c4.chunk.js.map": "./static/js/488.74d503c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfc65571.css",
-    "static/js/main.2968a202.js"
+    "static/js/main.560250af.js"
   ]
 }
