@@ -87,73 +87,86 @@ function App() {
 
     <div className='content'>
       <h1 id="portfolio" ref={portfolioRef}></h1>
-      
         <div className='showcase'>
-          <h1 className='showcase'>Game Project</h1>
-           <h3 className='showcase'>Gameplay Video Showcase</h3>
-            <div>
-           <iframe
-            width="800"
-            height="400"
-            src={`https://www.youtube-nocookie.com/embed/5uRDtLSMPkM?si=PBBPYIOUzE-5IRFB?allowfullscreen`}
-            title="YouTube Video Player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; allowfullscreen" 
-            referrerpolicy="strict-origin-when-cross-origin"> 
-           </iframe>
-            <Button 
-              link="https://drive.google.com/file/d/1lwZtyE7859AtLP847tozB0wW0QSixtSr/view?usp=sharing" 
-              buttonName="Download Game"
+        
+            <div name='laravel'>
+              <h1 className='showcase'>Laravel</h1>
+              <h3 className='showcase'>Twitter Clone</h3>
+              <iframe 
+                src="http://ideas-twitter-clone.infinityfreeapp.com/" 
+                width="800" 
+                height="400">
+              </iframe>
+              <Button 
+                link="http://ideas-twitter-clone.infinityfreeapp.com/"
+                buttonName="Go To Website"
               />
-          </div>
-
-          <hr></hr>
-
-          <div>
-           <h1 className='showcase'>React Project</h1>
-           <h3 className='showcase'>To Do List Website</h3>
-           <iframe 
-            src="https://todolist-lingfung.netlify.app/" 
-            width="800" 
-            height="400">
-            </iframe>
-           <p className='showcase'>(No, it is not an image, you can interact it. Try by typing something and then enter.)</p>
-           <Button 
-              link="https://todolist-lingfung.netlify.app/"
-              buttonName="Go To Website"
-            />
             </div>
-
+            
+    
+            <hr></hr>
+    
+            <div name='react'>
+             <h1 className='showcase'>React</h1>
+             <h3 className='showcase'>To Do List</h3>
+             <iframe 
+              src="https://todolist-lingfung.netlify.app/" 
+              width="800" 
+              height="400">
+              </iframe>
+             <p className='showcase'>(No, it is not an image, you can interact it. Try by typing something and then enter.)</p>
+             <Button 
+                link="https://todolist-lingfung.netlify.app/"
+                buttonName="Go To Website"
+              />
+            </div>
+    
             <hr></hr>
 
-           <h3 className='showcase'>Laravel Website Project(Tutorial)</h3>
-           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.642529475826!2d-73.98550479999998!3d40.7577301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f0b37%3A0x4cfeb3b8768b2723!2sGrand%20Central%20Terminal%2C%20New%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1691105840759!5m2!1sen!2sus" 
-            width="600"
-            height="450"
-            frameborder="0"
-            allowfullscreen=""
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>   
+            <div name='game'>
+            <h1 className='showcase'>Game(FYP)</h1>
+             <h3 className='showcase'>The 2D Platformer Game</h3>
+              <div>
+                 <iframe
+                  width="800"
+                  height="400"
+                  src={`https://www.youtube-nocookie.com/embed/5uRDtLSMPkM?si=PBBPYIOUzE-5IRFB?allowfullscreen`}
+                  title="YouTube Video Player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; allowfullscreen" 
+                  referrerpolicy="strict-origin-when-cross-origin"> 
+                 </iframe>
+                  <Button 
+                    link="https://drive.google.com/file/d/1lwZtyE7859AtLP847tozB0wW0QSixtSr/view?usp=sharing" 
+                    buttonName="Download Game"
+                    />
+              </div>
+            </div>
+        </div>
     </div>
 
     <div className='content'>
       <h1 id="about" ref={aboutRef}>About</h1>
-      <p className='contact'>
-        Email : 
-        <a className='popup'onClick={() => popUp("liowlingfung0116@gmail.com")}>liowlingfung0116@gmail.com 
-          <span className='popuptext' id="myPopup">Copied!</span>
-        </a>
-      </p>
+        <p className='contact'>
+          Resume : 
+          <a className='popup'onClick={() => popUp("liowlingfung0116@gmail.com")}>Resume Liow Ling Fung.pdf  
+            <span className='popuptext' id="myPopup">Downloading</span>
+          </a>
+        </p>
 
-      <p className='contact'>
-        Phone : 
-        <a className='popup'onClick={() => popUp("016-6010755")}>016-6010755 
-          <span className='popuptext' id="myPopup">Copied!</span>
-        </a>
-      </p>
+        <p className='contact'>
+          Email : 
+          <a className='popup'onClick={() => popUp("liowlingfung0116@gmail.com")}>liowlingfung0116@gmail.com 
+            <span className='popuptext' id="myPopup">Copied!</span>
+          </a>
+        </p>
+
+        <p className='contact'>
+          Phone : 
+          <a className='popup'onClick={() => popUp("016-6010755")}>016-6010755 
+            <span className='popuptext' id="myPopup">Copied!</span>
+          </a>
+        </p>
     </div>
     
 
