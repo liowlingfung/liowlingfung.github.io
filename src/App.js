@@ -5,17 +5,23 @@ import Profile from './components/Profile';
 import NavList from './components/NavList';
 import Skill from './components/Skill';
 import Button from './components/Button';
+import TwitterClone from './image/twitter-clone-website.png'
+import resumeURL from './documents/Resume_Liow_Ling_Fung.pdf'
 
 function App() {
   const profileRef = useRef(null)
   const portfolioRef = useRef(null)
   const aboutRef = useRef(null)
 
+  
+
   function popUp(text){
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
     navigator.clipboard.writeText(text)
   }
+
+
 
   return (
     <>
@@ -28,9 +34,25 @@ function App() {
       </nav>
     
     <div ref={profileRef}>
-      <Profile name='Liow Ling Fung' position='Frontend Developer'/>
+      <Profile name='Liow Ling Fung' position='Web Developer'/>
 
       <div className='mastery'>
+        <Skill 
+          skillName='React'
+          logo={LOGO.logoReact}
+          />
+        <Skill 
+          skillName='Laravel'
+          logo={LOGO.logoLaravel}
+          />  
+          <Skill 
+            skillName='PHP'
+            logo={LOGO.logoPHP}
+            />
+          <Skill 
+            skillName='Git' 
+            logo={LOGO.logoGit}
+            />
         <Skill 
           skillName='HTML'
           logo={LOGO.logoHTML}
@@ -42,14 +64,6 @@ function App() {
         <Skill 
           skillName='JavaScript'
           logo={LOGO.logoJS}
-          />
-        <Skill 
-          skillName='React'
-          logo={LOGO.logoReact}
-          />
-        <Skill 
-          skillName='PHP'
-          logo={LOGO.logoPHP}
           />
         <Skill 
           skillName='Python' 
@@ -75,10 +89,6 @@ function App() {
           skillName='Unreal Engine 5' 
           logo={LOGO.logoUE5}
           />
-        <Skill 
-          skillName='Git' 
-          logo={LOGO.logoGit}
-          />
       </div>
       
     </div>
@@ -92,11 +102,7 @@ function App() {
             <div name='laravel'>
               <h1 className='showcase'>Laravel</h1>
               <h3 className='showcase'>Twitter Clone</h3>
-              <iframe 
-                src="http://ideas-twitter-clone.infinityfreeapp.com/" 
-                width="800" 
-                height="400">
-              </iframe>
+              <img src={TwitterClone} alt="ideas-twitter-clone-screenshot" width="50%" height="50%"></img>
               <Button 
                 link="http://ideas-twitter-clone.infinityfreeapp.com/"
                 buttonName="Go To Website"
@@ -149,7 +155,7 @@ function App() {
       <h1 id="about" ref={aboutRef}>About</h1>
         <p className='contact'>
           Resume : 
-          <a className='popup'onClick={() => popUp("liowlingfung0116@gmail.com")}>Resume Liow Ling Fung.pdf  
+          <a className='popup' download="Resume_Liow_Ling_Fung" href={resumeURL}>Resume Liow Ling Fung.pdf  
             <span className='popuptext' id="myPopup">Downloading</span>
           </a>
         </p>

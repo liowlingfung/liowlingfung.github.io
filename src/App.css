@@ -189,10 +189,9 @@ li:active{
   grid-template-areas: 
   'img h1'
   'img p';
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
   padding: 50px 50px 50px 100px ;
-  
 }
 
 .profile img{
@@ -232,6 +231,13 @@ li:active{
 }
 
 /* Skills*/
+.mastery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
 .skills{
   display: inline-block;
   align-items: center;

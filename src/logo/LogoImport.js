@@ -11,6 +11,7 @@ const LOGO = {
     logoTypeScript: require('./TypeScript.png'),
     logoUE5: require('./ue5.png'),
     logoGit: require('./git.png'),
+    logoLaravel: require('./laravel.png'),
 }
 
 export default LOGO;
