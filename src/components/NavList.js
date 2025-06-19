@@ -2,11 +2,11 @@ import React from 'react'
 
 function FComp_NavButton(props) {
   const scrollToSection = () => {
-    props.ref.current.scrollIntoView({ behavior: 'smooth' });
+    // props.ref.current.scrollIntoView({ behavior: 'smooth' });
   }
 
   return (
-    <li onClick={scrollToSection}>{props.buttonName}</li>
+    <li onClick={scrollToSection}><a>{props.navList}</a></li>
   )
 }
 
