@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,10 +20,11 @@ function App() {
       <Navbar/>
       <main>
         <Profile/>
-        <section  className='portfolio'>
+        <section id='portfolio' className='portfolio'>
           <Portfolio/>
         </section>
       </main>
+      <Footer/>
     </>
   );
 }

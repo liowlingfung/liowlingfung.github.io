@@ -1,14 +1,34 @@
 import React from 'react'
-import Navlist from './NavList'
 
 function Navbar() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
   return (
     <nav id='navbar'>
         <ul>
-            <Navlist navList={`Main`}/>
-            <Navlist navList={`Portfolio 1`}/>
-            <Navlist navList={`Portfolio 2`}/>
-            <Navlist navList={`Protfolio 3`}/>
+            <li>
+              <a href='#profile' onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('profile')}
+                }>Home</a>
+            </li>
+            <li>
+              <a href='#portfolio' onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('portfolio')}
+                }>Portfolio</a>
+            </li>
+            <li>
+              <a href='#about' onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('about')}
+                }>About</a>
+            </li>
         </ul>
     </nav>
   )
