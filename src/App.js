@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react'
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       <Navbar/>
       <main>
         <Profile/>
+        <section  className='portfolio'>
+          <Portfolio/>
+        </section>
       </main>
     </>
   );
