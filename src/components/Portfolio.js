@@ -16,6 +16,7 @@ function Portfolio() {
           Jest JavaScript testing framework,
           Git & Github which also known as DVCS(Distributed Version Control Systems)
           `}
+        className='web-app'
       />
       <PortfolioItem
         src='https://liowlingfung.github.io/levelup-sim/'
@@ -25,6 +26,7 @@ function Portfolio() {
           randomly given experience points to level up. This project also
           keep tracks of your highest level and highest experience points gained.
           `}
+        className='web-app'
       />
       <PortfolioItem
         src='https://www.youtube.com/embed/5uRDtLSMPkM?si=rUJ_qKgzGfeT0s2R'
@@ -36,6 +38,7 @@ function Portfolio() {
           All assets and animation in the game are self made.
           `}
         buttonDesc='Go to Video'
+        className='video'
       />
     </>
   )

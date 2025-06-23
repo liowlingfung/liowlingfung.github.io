@@ -5,7 +5,7 @@ function PortfolioItem(props) {
     <>
         <div className='portfolio-card'>
             <h1 className='portfolio-title'>{props.title}</h1>
-            <iframe className='portfolio-site'
+            <iframe className={`portfolio-site ${props.className}`}
               width={400}
               height={350}
               src={props.src}
