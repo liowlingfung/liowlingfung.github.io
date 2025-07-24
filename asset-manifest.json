@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "./static/css/main.6e495f17.css",
-    "main.js": "./static/js/main.5dfb673c.js",
+    "main.js": "./static/js/main.0fb11b0f.js",
     "static/js/488.74d503c4.chunk.js": "./static/js/488.74d503c4.chunk.js",
     "static/media/image_lingfung.jpg": "./static/media/image_lingfung.9c8add738f97f9770aa5.jpg",
     "index.html": "./index.html",
     "main.6e495f17.css.map": "./static/css/main.6e495f17.css.map",
-    "main.5dfb673c.js.map": "./static/js/main.5dfb673c.js.map",
+    "main.0fb11b0f.js.map": "./static/js/main.0fb11b0f.js.map",
     "488.74d503c4.chunk.js.map": "./static/js/488.74d503c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e495f17.css",
-    "static/js/main.5dfb673c.js"
+    "static/js/main.0fb11b0f.js"
   ]
 }
