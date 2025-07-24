@@ -40,6 +40,18 @@ function Portfolio() {
         buttonDesc='Go to Video'
         className='video'
       />
+      <PortfolioItem
+        src='https://liowlingfung.github.io/finance-management-app/'
+        title='Finance Management App'
+        description={`
+          This project is made to simplify financial tracking and free to use for any people.
+          You want to take a look of an overview that when you had spent or earn?
+          This is the app for anyone who needs that!
+          No ads, no blabbering just a simple finance management website.
+          `}
+        className='web-app'
+      />
+
     </>
   )
 }
