@@ -11,7 +11,7 @@ function Profile(props) {
           <div className='profile-text'>
             <h1>Liow Ling Fung</h1>
             <h2>Front End Developer</h2>
-            <p>Simplicity is key to make things work</p>
+            <p>-Complexity is the key to make things work, while simplicity makes it approachable.</p>
           </div>
       </section>
       <section style={
