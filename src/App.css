@@ -38,10 +38,11 @@ body{
 
 /* Navbar */
 #navbar{
-  margin: 50px;
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(39, 39, 39);
 }
 
 ul{
@@ -103,8 +104,15 @@ ul{
   transition: .3s;
 }
 
+.profile-text p{
+  margin-top: 10px;
+  font-size: 12px;
+  transition: .3s;
+}
+
 .profile-text h1:hover,
-.profile-text h2:hover{
+.profile-text h2:hover,
+.profile-text p:hover{
   transform: translateX(10px);
   transition: .3s;
 }
@@ -125,11 +133,12 @@ ul{
   margin: 20px 0;
   padding: 20px;
   border-radius: 15px;
-  max-width: 400px;
+  max-width: 350px;
   transition: .3s;
   color: black;
   border: 5px solid yellow;
   box-shadow: 10px 0px 100px grey;
+  max-height: 500px;
 }
 
 .portfolio-card:hover{
@@ -161,6 +170,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color:  rgb(39, 39, 39);
   max-height: 300px;
 }
 
