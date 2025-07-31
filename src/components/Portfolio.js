@@ -5,16 +5,18 @@ function Portfolio() {
   return (
     <>
       <PortfolioItem
-        src='https://liowlingfung.github.io/capstone-project/'
-        title='Capstone Project'
+        src='https://liowlingfung.github.io/link-management-app'
+        title='Link Management App'
         description={`
-          This capstone project is made from
-          Meta's Front End Developer course as a proof
-          of understanding every knowledge during the course.
-          Which includes React basics and React Hooks,
-          Figma wireframe & protoype design(UI/UX),
-          Jest JavaScript testing framework,
-          Git & Github which also known as DVCS(Distributed Version Control Systems)
+          Have trouble finding your saved links? This website got you covered!
+          `}
+        className='web-app'
+      />
+      <PortfolioItem
+        src='https://liowlingfung.github.io/finance-management-app/'
+        title='Finance Management App'
+        description={`
+          Money is the root of poverty. Manage your $ with simple finance management!
           `}
         className='web-app'
       />
@@ -22,9 +24,7 @@ function Portfolio() {
         src='https://liowlingfung.github.io/levelup-sim/'
         title='Level Up Simulator'
         description={`
-          This project is a level up simulator where you can level up with
-          randomly given experience points to level up. This project also
-          keep tracks of your highest level and highest experience points gained.
+          Getting bored? Try out a clicking simulator where you can level up!
           `}
         className='web-app'
       />
@@ -32,26 +32,24 @@ function Portfolio() {
         src='https://www.youtube.com/embed/5uRDtLSMPkM?si=rUJ_qKgzGfeT0s2R'
         title='2D Platformer Game'
         description={`
-          This is an individual based Final Year Game Project made using Unreal Engine 5 with Blueprint Systems(Visual Programming)
-          The gameplay is similar to Super Mario Bros but with different combat mechanics.
-          There are several systems designed such as difficulty system, currency & shopping system and stage selection.
-          All assets and animation in the game are self made.
+          Yes, this is my final year project! It is not really exciting... but!
+          It is worth checking since it is the only game project I show in my portfolio!
           `}
         buttonDesc='Go to Video'
+        downloadButton='Download'
+        downloadSrc="https://drive.google.com/file/d/1lwZtyE7859AtLP847tozB0wW0QSixtSr/view?usp=drive_link"
         className='video'
       />
       <PortfolioItem
-        src='https://liowlingfung.github.io/finance-management-app/'
-        title='Finance Management App'
+        src='https://liowlingfung.github.io/capstone-project/'
+        title='Capstone Project'
         description={`
-          This project is made to simplify financial tracking and free to use for any people.
-          You want to take a look of an overview that when you had spent or earn?
-          This is the app for anyone who needs that!
-          No ads, no blabbering just a simple finance management website.
+          Hey! I know nobody cares about a capstone project.
+          But raw skills are required to build something boring but important.
+          So that's why you're here!
           `}
         className='web-app'
       />
-
     </>
   )
 }

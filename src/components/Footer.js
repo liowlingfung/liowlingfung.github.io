@@ -39,6 +39,9 @@ function Footer() {
               description='LinkedIn Profile'
             />
         </div>
+        <div className='copyright-info' style={{textAlign: 'center', padding: '1rem 0'}}>
+          <p>© 2025 Liow Ling Fung. All Rights Reserved.</p>
+        </div>
     </footer>
   )
 }

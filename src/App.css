@@ -123,12 +123,11 @@ ul{
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px;
 }
 
 .portfolio-card{
   display: grid;
-  grid-template-rows: 100px 1fr 200px 100px;
+  grid-template-rows: 100px 1fr 100px 100px;
   background-color: whitesmoke;
   margin: 20px 0;
   padding: 20px;
@@ -136,9 +135,9 @@ ul{
   max-width: 350px;
   transition: .3s;
   color: black;
-  border: 5px solid yellow;
-  box-shadow: 10px 0px 100px grey;
-  max-height: 500px;
+  border: 3px solid rgb(0, 183, 255);
+  box-shadow: 10px 0px 100px rgb(130, 236, 255);
+  max-height: 700px;
 }
 
 .portfolio-card:hover{
@@ -149,7 +148,7 @@ ul{
 .portfolio-title{
   background-color: whitesmoke;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
+  font-size: 36px;
   color: black;
 }
 
@@ -163,6 +162,7 @@ ul{
   font-size: 18px;
   text-align: justify;
   line-height: 25px;
+  max-height: 50px;
 }
 
 /* Footer */
