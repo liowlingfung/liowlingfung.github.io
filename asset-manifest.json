@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.4f98bd20.css",
-    "main.js": "./static/js/main.f0e9235b.js",
+    "main.css": "./static/css/main.48d42bfc.css",
+    "main.js": "./static/js/main.18c7c205.js",
     "static/js/488.74d503c4.chunk.js": "./static/js/488.74d503c4.chunk.js",
     "static/media/image_lingfung.jpg": "./static/media/image_lingfung.9c8add738f97f9770aa5.jpg",
     "static/media/Resume_Liow_Ling_Fung.pdf": "./static/media/Resume_Liow_Ling_Fung.3fde6146bb888daa9ba7.pdf",
     "index.html": "./index.html",
-    "main.4f98bd20.css.map": "./static/css/main.4f98bd20.css.map",
-    "main.f0e9235b.js.map": "./static/js/main.f0e9235b.js.map",
+    "main.48d42bfc.css.map": "./static/css/main.48d42bfc.css.map",
+    "main.18c7c205.js.map": "./static/js/main.18c7c205.js.map",
     "488.74d503c4.chunk.js.map": "./static/js/488.74d503c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f98bd20.css",
-    "static/js/main.f0e9235b.js"
+    "static/css/main.48d42bfc.css",
+    "static/js/main.18c7c205.js"
   ]
 }
