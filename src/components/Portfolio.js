@@ -29,6 +29,14 @@ function Portfolio() {
         className='web-app'
       />
       <PortfolioItem
+        src='https://liowlingfung.github.io/react-todolist/'
+        title='Simple To Do List'
+        description={`
+          Remember to do your tasks with this simple to do list app!
+          `}
+        className='web-app'
+      />
+      <PortfolioItem
         src='https://www.youtube.com/embed/5uRDtLSMPkM?si=rUJ_qKgzGfeT0s2R'
         title='2D Platformer Game'
         description={`
