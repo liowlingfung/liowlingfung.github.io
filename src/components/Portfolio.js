@@ -5,6 +5,14 @@ function Portfolio() {
   return (
     <>
       <PortfolioItem
+        src='https://github.com/liowlingfung/digimon-api'
+        title='Digimon App'
+        description={`
+          This is a simple web app Github repo that uses Digimon API to display Digimon data.
+          `}
+        className='web-app'
+      />
+      <PortfolioItem
         src='https://liowlingfung.github.io/link-management-app'
         title='Link Management App'
         description={`
