@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <>
       <PortfolioItem
-        src='https://github.com/liowlingfung/digimon-api'
+        src='https://project-digimon-api--lh48zwqz86.expo.app/'
         title='Digimon App'
         description={`
           This is a simple React Native Github repo that uses Digimon API to display Digimon data.
